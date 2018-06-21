@@ -1,0 +1,42 @@
+/*
+reset.css
+normalize.css
+*/
+@import "reset.css";
+
+*{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+body{
+  font: 13px Arial, Helvetica, sans-serif;
+  /* 20em */
+}
+
+@media (max-width: 677px) {
+  body{
+    background: red;
+  }
+}
+
+  @media (min-width: 678px) and (max-width: 979px) {
+    body{
+      background: green;
+    }
+  }
+
+    @media (min-width: 980px){
+      body{
+        background: blue;
+      }
+
+}
