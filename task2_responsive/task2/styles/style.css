@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url("./../images/bg.gif") repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+#global-wrap{
+
+  background: #fff url("./../images/header.jpg") no-repeat center top;
+
+}
+
+.global-header{
+  height: 239px;
+  padding: 135px 0 0 40px;
+}
+
+.global-header a,
+.global-header p{
+  color:#fff;
+  text-decoration: none;
+}
+
+.global-header a{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.global-header p{
+
+}
+
+.global-menu {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a9db80+49,597542+100,bdea8a+100,a9db80+100 */
+  background: #a9db80; /* Old browsers */
+  background: -moz-linear-gradient(top, #a9db80 49%, #597542 100%, #bdea8a 100%, #a9db80 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a9db80 49%,#597542 100%,#bdea8a 100%,#a9db80 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a9db80 49%,#597542 100%,#bdea8a 100%,#a9db80 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#a9db80',GradientType=0 ); /* IE6-9 */
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 20px;
+
+
+}
+
+
+.global-menu li a:hover{
+  color: #fff;
+}
+
+
+
+.content-left a{
+  text-decoration: underline;
+}
+.one-news-box{
+  font-size: 14px;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.one-news-box .footer-one-news-box ul li::before{
+  content: "|";
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.one-news-box .footer-one-news-box ul li:first-child:before{
+  content: "";
+  display: none;
+}
+.one-news-box .footer-one-news-box ul li{
+  display: inline-block;
+
+}
+.one-news-box{
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.one-news-box h1,
+.one-news-box h2 {
+  color:green;
+}
+
+
+
+.archive ul li:before,
+.company-news ul li:before
+{
+  content: "\25A0";
+  color: green;
+  padding-right: 4px;
+}
+
+.archive ul li,
+.company-news ul li
+{
+
+}
+
+.archive ul,
+.company-news ul{
+  list-style: none;
+  padding-left: 10px;
+}
+
+.company-news h4{
+    padding-left: 10px;
+}
+
+.archive ul a{
+  color: green;
+}
+
+.archive ul a span{
+  color: gray;
+  font-style: italic;
+}
+
+.archive .title,
+.company-news .title{
+  background: url("./../images/bg.gif") repeat;
+
+padding-top: 10px;
+padding-left: 15px;
+padding-bottom: 10px;
+color: #fff;
+font-weight: bold;
+margin-bottom: 15px;
+
+}
+
+
+
+.company-news h4{
+  color: #5f5d5d;
+}
+
+.company-news li{
+  color: green;
+}
+
+footer{
+  border-top: 4px solid #0000ff;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,4bc611+55,11a009+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #4bc611 55%, #11a009 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 0%,#4bc611 55%,#11a009 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 0%,#4bc611 55%,#11a009 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#11a009',GradientType=0 ); /* IE6-9 */
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  width: 780px;
+  margin: 0 auto;
+}
+
+footer ul li::before{
+  content: "|";
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer ul li:first-child:before{
+  content: "";
+  display: none;
+}
+footer ul li{
+  display: inline-block;
+
+}
+
+/***
+**** custom select
+***/
+
+.custom-select{
+    display: inline-block;
+    position: relative;
+}
+.custom-select ul{
+  background: #fff;
+  border: 1px solid blue;
+  list-style: none;
+  position: absolute;
+  min-width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+.custom-select ul li{
+  padding: 5px 10px;
+}
+
+.custom-select ul li.active{
+  background: yellow;
+}
+
+.custom-select ul li:hover{
+  background: orange;
+}
+.custom-select .current-item a{
+  position: absolute;
+  right: 5px;
+  top:2px;
+}
+.custom-select .current-item{
+  background: #fff;
+  border: 1px solid red;
+  padding: 0 20px 0 10px;
+  display: inline-block;
+  min-width: 100px;
+  max-width: 200px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.costum-checkbox-wrap .costum-checkbox{
+
+}
+
+.costum-checkbox-wrap .costum-checkbox:before{
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+  border-radius: 5px;
+  display: inline-block;
+  content: "";
+}
+
+.costum-checkbox-wrap input[type="checkbox"]:checked + .costum-checkbox::before{
+ background: red;
+}
+
+.costum-checkbox-wrap input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+  left: -99999999;
+}
+
+
+@media (max-width: 677px) {
+
+  #global-wrap{
+    width: 100%;
+    background: #fff url("./../images/header.jpg") no-repeat center top;
+    /* margin: 0 auto;
+    padding:0 8px; */
+    /* height: 1000px; */
+  }
+
+  .global-header{
+    height: 239px;
+    padding: 43px 0 0 30px;
+  }
+
+
+
+  .global-header a{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .global-menu ul{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    list-style: none;
+  }
+  .global-menu li{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #fff;
+  }
+
+  .global-menu ul li:last-child{
+    border-bottom: 1px solid #fff;
+  }
+
+  .global-menu li a:hover{
+    color: #fff;
+  }
+
+  .content-left{
+    float: right;
+    padding-right: 22px;
+    padding-left: 30px;
+  }
+
+  .content-left a{
+    text-decoration: underline;
+  }
+  .one-news-box{
+    font-size: 14px;
+  }
+  .content-right{
+    float: left;
+    width: 100%;
+    font-size: 14px;
+  }
+
+.archive .title{
+  text-align: center;
+}
+.company-news .title{
+  text-align: center;
+}
+  footer{
+
+    width: 100%;
+  }
+
+
+
+
+  }
+
+
+  @media (min-width: 678px) and (max-width: 979px) {
+
+    #global-wrap{
+      width: 700px;
+      margin: 0 auto;
+    }
+
+    .global-header{
+      height: 239px;
+      padding: 43px 0 0 30px;
+    }
+
+
+    .global-menu ul{
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      list-style: none;
+    }
+    .global-menu li{
+      text-align: center;
+      font-size: 16px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-top: 1px solid #fff;
+    }
+
+    .global-menu ul li:last-child{
+      border-bottom: 1px solid #fff;
+    }
+
+    .content-left{
+      float: right;
+      padding-right: 22px;
+      padding-left: 30px;
+    }
+
+    .content-right{
+      float: left;
+      width: 100%;
+      font-size: 14px;
+    }
+
+    .archive .title,
+    .company-news .title{
+
+    text-align: center;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+
+    }
+
+    .company-news{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+
+    footer{
+
+      width: 100%;
+    }
+
+
+  }
+
+    @media (min-width: 980px){
+
+      #global-wrap{
+        margin: 0 auto;
+        padding:0 8px;
+        width: 764px;
+      }
+
+      .global-menu ul{
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+      }
+      .global-menu li{
+        display: table-cell;
+        text-align: center;
+        /* background: red; */
+        font-size: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .content-left{
+        float: left;
+        width: 450px;
+        padding-right: 22px;
+        padding-left: 30px;
+      }
+
+      .content-right{
+        float: right;
+        width: 241px;
+        padding-right: 21px;
+        font-size: 14px;
+      }
+
+      .archive{
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+
+
+      .company-news{
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+}

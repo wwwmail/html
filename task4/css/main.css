@@ -1,0 +1,139 @@
+.header-nav ul{
+
+  padding-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.header-nav ul li{
+  text-align: center;
+  font-size: 14px;
+  color: #b9b9b9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.header-nav ul li.active{
+  color: #e8663c;
+}
+
+.logo{
+  padding-top: 9px;
+}
+
+.custom-icon{
+  background-image: url("../images/sprite-1.png");
+  background-repeat: no-repeat;
+  height: 47px;
+  width: 47px;
+  display: block;
+  float: left;
+}
+
+i.setting-icon{
+  background-position: 0px 0px;
+  margin-right: 20px;
+}
+
+i.check-icon{
+  background-position: -52px 0px;
+  margin-right: 20px;
+}
+
+i.man-icon{
+  background-position: -100px 0px;
+  margin-right: 20px;
+}
+
+.middle-info .description-item{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.right-image{
+  float: right;
+}
+
+.left-image{
+  float: left;
+}
+
+.middle-info{
+  padding-top: 20px;
+}
+.middle-info h4{
+  margin: 0;
+  padding-top:20px;
+}
+
+.middle-info .description-item{
+  padding-bottom: 20px;
+  color: #414141;
+}
+
+.middle-info .item{
+  padding-bottom: 20px;
+}
+
+a.read-more{
+    border:none;
+    background-color: #e8663c;
+    border-radius: 0;
+}
+
+
+.recent-works .text{
+  float: left;
+  width: 20%;
+  min-width: 135px;
+  max-width: 229px;
+  color: #e8663c;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.recent-works .background-line{
+  height: 20px;
+  width: 50%;
+  float: right;
+  background-image: url(../images/title-bg.png);
+  display: block;
+}
+
+.recent-works .work-description{
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+
+
+
+
+
+
+
+.footer-content .center-content{
+  background: #e8663c;
+}
+
+
+@media (min-width: 768px)  {
+  .header-nav ul{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+
+  }
+
+  .header-nav ul li{
+      display: table-cell;
+  }
+ }
+@media (min-width: 993px) and (max-width: 1200px) { ... }
+@media (min-width: 1200px) { ... }
