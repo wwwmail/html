@@ -106,23 +106,106 @@ a.read-more{
 }
 
 .recent-works .work-description{
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-  border-bottom: 1px solid grey;
+
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.recent-works .work-description .title{
+  color: #b9b9b9;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.recent-works .work-description .date{
+  color: #e8663c;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
 }
 
 
-
-
-
-
+.footer-content .footer-title{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 19px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 
 .footer-content .center-content{
   background: #e8663c;
+  color: #fff;
+
+}
+
+.twitter-desc .twitter-nik{
+  color: #f3b29d;
+}
+
+.twitter-desc {
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.footer-content .email{
+  color:#fff;
+}
+
+.custom-icon-2{
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-image: url('../images/sprite-2.png');
+}
+
+.twitter-icon{
+  background-position: -32px 0;
+}
+
+.facebook-icon{
+  background-position: 0 0;
+}
+
+.email-icon{
+  background-position: -62px 0;
+}
+
+.orange-icon{
+  background-position: -96px 0;
+}
+
+.vimeo-icon{
+  background-position: -128px 0;
+}
+
+.social{
+  padding-bottom: 50px;
+}
+
+.recent-works{
+  padding-top: 15px;
+}
+
+footer{
+  background: #f3b29d;
 }
 
 
+@media (max-width: 768px)  {
+  footer .container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+}
 @media (min-width: 768px)  {
   .header-nav ul{
     display: table;
@@ -131,9 +214,44 @@ a.read-more{
 
   }
 
+
+
   .header-nav ul li{
       display: table-cell;
   }
  }
+
+@media (min-width: 768px)   and (max-width: 992px){
+  .item-recent-work{
+    max-width: 220px;
+    margin: 0 auto;
+  }
+
+  .recent-works .background-line{
+    width: 75%;
+  }
+
+}
 @media (min-width: 993px) and (max-width: 1200px) { ... }
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+  .header-nav{
+    padding-top: 15px;
+  }
+
+  .recent-works .background-line {
+    width: 80%;
+  }
+
+  .header-image{
+    width: 100%;
+  }
+  .item-recent-work img{
+    width: 100%;
+  }
+
+  .footer-content .center-content {
+      border-left: 10px solid #fff;
+      border-right: 10px solid #fff;
+  }
+
+ }
