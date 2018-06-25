@@ -357,3 +357,7 @@ footer p{
   border-radius: 5px;
 
 }
+
+.icons .social-item:last-child{
+  margin-right: 0;
+}
