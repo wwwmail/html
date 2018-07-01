@@ -88,19 +88,17 @@ a.read-more{
 
 .recent-works .text{
   float: left;
-  width: 20%;
-  min-width: 135px;
-  max-width: 229px;
   color: #e8663c;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
+  background: #fff;
+  padding-right: 20px;
 }
 
 .recent-works .background-line{
   height: 20px;
-  width: 50%;
-  float: right;
+  width: auto;
   background-image: url(../images/title-bg.png);
   display: block;
 }
@@ -227,9 +225,7 @@ footer{
     margin: 0 auto;
   }
 
-  .recent-works .background-line{
-    width: 75%;
-  }
+
 
 }
 @media (min-width: 993px) and (max-width: 1200px) { ... }
@@ -238,9 +234,6 @@ footer{
     padding-top: 15px;
   }
 
-  .recent-works .background-line {
-    width: 80%;
-  }
 
   .header-image{
     width: 100%;
