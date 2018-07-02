@@ -196,6 +196,10 @@ footer{
   background: #f3b29d;
 }
 
+.item-recent-work img{
+  width: 100%;
+}
+
 
 @media (max-width: 768px)  {
   footer .container{
